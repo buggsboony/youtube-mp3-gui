@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Name=Youtube-mp3-gui
+Comment=Télécharger l'audio à partir d'un lien youtube (youtube-dl)
+Path=HOME_PATH/Musique
+Exec=/usr/bin/youtube-mp3-gui
+Icon=HOME_PATH/Images/youtube.png
+Categories=AudioVideo;Audio;Network;Utility
+StartupWMClass=youtube-mp3-gui
+StartupNotify=true
+Keywords=Music;youtube;mp3
