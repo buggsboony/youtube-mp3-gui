@@ -1,0 +1,15 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=true
+Name=Youtube-dl Mp3
+Comment=Télécharger l'audio à partir d'un lien youtube
+Path=/home/boony/Musique
+Exec=/usr/bin/youtube-mp3-gui
+Icon=/home/boony/Documents/srcs/youtube-mp3-gui/youtube.png
+Categories=AudioVideo;Audio;Network;Utility
+StartupWMClass=youtube-mp3-gui
+StartupNotify=true
+Keywords=Music;youtube;mp3
+ 
