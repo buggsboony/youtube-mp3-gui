@@ -12,7 +12,10 @@ if [ -z "$link" ]
 then
 echo "nothing to do"  
 else    
+echo "Launch youtube-dl"
 youtube-dl --extract-audio --audio-format mp3 --audio-quality 0 "$link"
-dolphin $HOME/Musique
+echo "opening directory '$PWD' "
+dolphin . &
 fi
-
+echo "Wait 4s before exit"
+sleep 4
