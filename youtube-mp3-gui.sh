@@ -16,6 +16,6 @@ echo "Launch youtube-dl"
 youtube-dl --extract-audio --audio-format mp3 --audio-quality 0 "$link"
 echo "opening directory '$PWD' "
 dolphin . &
-fi
 echo "Wait 4s before exit"
 sleep 4
+fi
