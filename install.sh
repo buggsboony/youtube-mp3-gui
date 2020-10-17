@@ -21,7 +21,7 @@ cp youtube.png $HOME/Images
 echo "Set executable..."
 chmod +x $what$extension
 #echo "lien symbolique vers usr bin"
-sudo ln -s "$PWD/$what$extension" /usr/bin/$what
+sudo ln -s "$PWD/$what$extension" /usr/local/bin/$what
 
 if [ -f $dest ];
 then
